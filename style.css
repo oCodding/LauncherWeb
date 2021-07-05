@@ -1,0 +1,52 @@
+body{
+    background-image: url("LINK_FOTO_FUNDINHO");
+    background-repeat: no-repeat;
+    background-position: relative;
+    height: 100vh;
+    margin: 0;
+    max-width: 100vw;
+    background-size: 100% 100%;
+}
+.container{
+    display: flex;
+    height: 100%;
+}
+.box{
+    background-image: url("LINK_LOGO_PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    height: 650px;
+    width: 650vw;
+    display: flex;
+    border-radius: 5px;
+}
+.connect{
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.connect a{
+    float: left;
+    padding: 12px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #00aeff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    color: #000000;
+    margin-right: 15px;
+}
+.connect a:last-child{
+    margin-right: 0;
+}
+p{
+    padding: 10px 14px;
+    border-radius: 1px;
+    background-color: #00aeff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    color: #000000;
+}
